@@ -1,0 +1,55 @@
+version: '3.7'
+services:
+  # Todo: Postgresql
+  postgresql:
+    container_name: postgresql
+    image: postgres:latest
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: '${POSTGRES_DB}'
+      POSTGRES_USER: '${POSTGRES_USER}'
+      POSTGRES_PASSWORD: '${POSTGRES_PASSWORD}'
+      PGDATA: '/data/postgres'
+    volumes:
+      - db_data/:/var/lib/postgresql/data/postgres:ro
+      - ./database/init/init.sql:/docker-entrypoint-initdb.d/init.sql
+    env_file:
+      - .env
+    ports:
+      - '${POSTGRES_PORT}:${POSTGRES_PORT}'
+    networks:
+      - service_pink_app-network
+    healthcheck:
+      test: ['CMD-SHELL', "sh -c 'pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}'"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
+  # Todo: Nginx
+  # nginx:
+  #   container_name: nginx
+  #   build:
+  #     dockerfile: ./docker/nginx/Dockerfile
+  #     context: .
+  #   restart: always
+  #   env_file:
+  #     - .env
+  #   volumes:
+  #     - ./docker/nginx/conf.d:/etc/nginx/conf.d
+  #   ports:
+  #     - '${PORT_NGINX}:${PORT_NGINX}'
+  #   networks:
+  #     - service_pink_app-network
+  #   healthcheck:
+  #     test: ['CMD', 'curl', '-f', 'http://${PORT_HOST_NGINX}']
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 5
+  #     start_period: 10s
+
+networks:
+  service_pink_app-network:
+    driver: bridge
+volumes:
+  db_data:
+    driver: local

@@ -1,0 +1,22 @@
+{
+  "short_name": "TwinkConnect | MERN Chat",
+  "name": "MERN Chat App by TaiHeoDev",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "lang": "en",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [],
+  "categories": ["mern", "chat-app", "twinkconnect", "communication", "chat"]
+}
