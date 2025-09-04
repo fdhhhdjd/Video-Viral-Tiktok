@@ -36,7 +36,7 @@ Clone trực tiếp từ GitHub:
 Bên cạnh tài liệu miễn phí, mình còn mở các khóa học online:
 
 - **Lập trình web cơ bản → nâng cao**
-- **Ứng dụng di động với Flutter**
+- **Ứng dụng về AI và Automation**
 - **Kỹ năng phỏng vấn & xây CV IT**
 
 ### Thông Tin Đăng Ký
