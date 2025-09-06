@@ -15,11 +15,12 @@
 ## Giới thiệu
 Mình là **[Tai Heo Dev]**, người sáng lập kênh TikTok **@hoclaptrinhvui**.  
 Trên kênh mình chia sẻ:  
-- Mã nguồn demo các dự án web, mobile  
-- Tips & tricks lập trình (JavaScript, Python, Flutter…)  
-- Kỹ năng mềm & hướng nghiệp IT  
+- Mã nguồn demo các dự án web, AI.  
+- Tips & tricks lập trình (JavaScript, Python, React, NodeJs, System,...)  
+- Kỹ năng mềm & hướng nghiệp IT & dạy học online. 
 
 Toàn bộ source code đều **miễn phí**, bạn có thể tải về, nghiên cứu, tùy biến và chia sẻ lại.
+Rất vui khi bạn donate giúp cho team nhiều source, đó là kinh phí giúp team thêm động lực phát triển.
 
 ---
 
