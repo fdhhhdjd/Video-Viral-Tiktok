@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
     const openModalBtn = document.getElementById('openModalBtn');
     const noteModal = document.getElementById('noteModal');
     const closeNoteModal = document.querySelector('.close');
