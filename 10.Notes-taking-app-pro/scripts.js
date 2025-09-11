@@ -10,7 +10,7 @@
     const notesContainer = document.getElementById('notesContainer');
     const searchInput = document.getElementById('searchInput');
 
-    let notes = JSON.parse(localStorage.getItem('notes')) || [];
+    let notes = JSON.parse(localStorage.getItem('notes')) || []
 
     const newReminderTimeInput = document.getElementById('newReminderTime');
     const reminderModal = document.getElementById('reminderModal');
