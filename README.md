@@ -77,5 +77,5 @@ Quét QR để ủng hộ nhanh:
 - 💻 GitHub: [fdhhhdjd](https://github.com/fdhhhdjd)
 - 📧 Email: [nguyentientai10@gmail.com](mailto:nguyentientai10@gmail.com)
 
-Cảm ơn bạn đã quan tâm & chúc bạn học tập hiệu quả! Have a nice day <3!
+Cảm ơn bạn đã quan tâm & chúc bạn học tập hiệu quả! Have a nice day <3!!
 
