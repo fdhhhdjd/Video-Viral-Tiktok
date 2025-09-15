@@ -1,0 +1,6 @@
+Flask
+flask-cors
+redis
+python-dotenv
+pyjwt
+requests

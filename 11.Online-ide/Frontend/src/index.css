@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "tailwindcss-motion";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark div:where(.swal2-container) div:where(.swal2-popup) {
+  background: #333;
+  color: #e8e6e3;
+}
+
+.dark div:where(.swal2-container) div:where(.swal2-validation-message) {
+  background: #8b8b8b47;
+  color: #d3d3d3;
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}
