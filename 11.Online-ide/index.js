@@ -1,3 +1,4 @@
+// Hàm để phân tích số nguyên dương N thành tổng các số nguyên dương
 function partitions(N) {
     let cur = [];
   
