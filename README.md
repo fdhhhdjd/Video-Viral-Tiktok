@@ -1,4 +1,4 @@
-# 📦 Source Code Từ Kênh TikTok @hoclaptrinhvui and Channel dạy học lập trình @code.web.khng.kh
+# 📦 Source Code Từ Kênh TikTok @hoclaptrinhvui và Channel dạy học lập trình @code.web.khng.kh
 
 > Kho source code minh họa từ các video hướng dẫn lập trình, kỹ năng mềm… trên kênh TikTok của mình.
 
@@ -73,7 +73,8 @@ Quét QR để ủng hộ nhanh:
 
 ## 📞 Liên Hệ
 
-- 🎥 TikTok: [@hoclaptrinhvui](https://www.tiktok.com/@hoclaptrinhvui)
+- 🎥 TikTok Source: [@hoclaptrinhvui](https://www.tiktok.com/@hoclaptrinhvui)
+- 📚 Tiktok Dạy Học: [@code.web.khng.kh](https://www.tiktok.com/@code.web.khng.kh)
 - 💻 GitHub: [fdhhhdjd](https://github.com/fdhhhdjd)
 - 📧 Email: [nguyentientai10@gmail.com](mailto:nguyentientai10@gmail.com)
 
